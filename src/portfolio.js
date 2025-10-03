@@ -54,9 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive user interfaces for web applications"
     ),
-    emoji("⚡ Write hundreds of unit tests in Java and TypeScript to catch edge cases"),
+    emoji("⚡ Familiar with CI/CD pipelines"),
     emoji(
-      "⚡ Lead teams of 2-6 programmers to deliver 6+ projects on time"
+      "⚡ Continuous learning on solo projects including a mobile app and games"
     )
   ],
 
