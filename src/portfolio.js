@@ -88,10 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -104,10 +104,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
+    // {
+    //   skillName: "firebase",
+    //   fontAwesomeClassname: "fas fa-fire"
+    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -125,6 +125,14 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
+    {
+      schoolName: "Utah Valley University",
+      logo: require("./assets/images/uvuMedallionGreen.webp"),
+      logoPosition: "center", // Optional: center, top, bottom, left, right, or specific like "center top"
+      logoScale: 1.2, // Optional: zoom factor for logo within the FIXED circle (e.g., 0.8 = zoomed out, 1.5 = zoomed in, circle size never changes)
+      subHeader: "Associates of Science: General Studies",
+      duration: "September 2019 - April 2022",
+    },
     {
       schoolName: "Brigham Young University",
       logo: require("./assets/images/byuMedallionNavy.png"),
@@ -155,11 +163,11 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: false, //Set it to true to show Proficiency Section
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "60%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -181,10 +189,17 @@ const customWorkExperience ={
       company: "FPS GOLD",
       companylogo: require("./assets/images/fpsgold.jpeg"),
       date: "May 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "An IT professional that helps with System Administration, maintaining CI/CD pipelines, deployment/release specialist, and on-call help",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       "Performed root cause analysis of production errors and resolved technical issues",
+        "Designed procedures for system troubleshooting and maintenance",
+        "Deployed code in multiple environments, including Betas and Production for over end-user products",
+        "Managed 100+ VM's",
+        "Wrote PowerShell and Python scripts to automate workloads, helping to decrease deployment time, conserve computing resources, and automate routine tasks",
+        "Administrative tasks using Kubernetes",
+        "Citrix App and Desktop Admin",
+        "On-Call for Tier 3 Technical Support",
+        "Implement IT security patches"
       ]
     }]
 }
@@ -208,7 +223,7 @@ const workExperiences = {
       company: "DHI Computing Services, Inc",
       companylogo: require("./assets/images/dhi.jpeg"),
       date: "Feb 2020 – Jan 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Monitor the computer system via the console and support console, ensure that job schedules are followed to maintain production timelines. Maintain transmission check off sheet and logs while receiving customer phone calls to resolve issues or transfer them to appropriate parties. Oversee the ATM transmission console. Run test afterhours to confirm accuracy before final client implantation. Preform required procedures using necessary equipment: Printers, tape drives, DVD creation devices. Assist in training new employees on company software and procedures"
     },
   ]
 };
@@ -251,7 +266,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -312,7 +327,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -366,9 +381,10 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
+    // "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://open.spotify.com/show/5BhjwfdwCPRsD3xDTk0QWU?si=ad26bd9833324c07"
+  ], 
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -384,8 +400,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+92-0000000000",
+  email_address: "aphasay@outlook.com"
 };
 
 // Twitter Section
